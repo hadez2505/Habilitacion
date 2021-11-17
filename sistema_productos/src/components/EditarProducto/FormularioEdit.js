@@ -31,7 +31,7 @@ const obtenerEstilos = makeStyles((theme) => ({
 const FormularioEdit = ({producto}) => {
 	// console.log(producto);
 	const {
-		id: codigo,
+		Id: codigo,
 		description: des,
 		valor_unitario: vu,
 		estado: est,

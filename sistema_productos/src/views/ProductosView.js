@@ -95,7 +95,7 @@ const ProductosView = () => {
 									{productos.map((item) => {
 										return (
 											<TableRow>
-												<TableCell>{item.id}</TableCell>
+												<TableCell>{item.Id}</TableCell>
 												<TableCell>{item.description}</TableCell>
 												<TableCell>{item.valor_unitario}</TableCell>
 												<TableCell>
