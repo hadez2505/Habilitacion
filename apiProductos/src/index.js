@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const db = require('./models/database');
 
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 3010);
 
 app.use(morgan('dev'));
 

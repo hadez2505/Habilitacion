@@ -51,7 +51,7 @@ const FormularioEdit = ({producto}) => {
 	}) => {
 		try {
 			const {status, data} = await axios.post(
-				`http://localhost:4000/actualizar/${id}`,
+				`http://localhost:3010/actualizar/${id}`,
 				{
 					id: parseInt(id),
 					description: description,
